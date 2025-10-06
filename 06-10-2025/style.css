@@ -1,0 +1,29 @@
+ #inicio
+    {
+        color: yellow;
+    }
+#intermedio
+    {
+    color: blue;
+    }
+#final
+    {
+        color: red;
+    }
+#comienzo
+    {
+        color: blueviolet;
+    }
+#medio
+    {
+        color: aquamarine;
+    }
+#termina
+    {
+        color: lightseagreen;
+    }
+h4
+{
+    display: inline;
+    background-color: greenyellow;
+}
