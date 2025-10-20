@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div > h3
+        {
+            background-color: green;
+        }
+        .enlace
+        {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <div> 
@@ -58,11 +68,22 @@
     <div>
         <input type="checkbox" id="terminos" name="terminos">
         <label for="terminos">Yes, I would like to receive periodic email updates</label>
+        <h3>Primer h3 dentro del div</h3>
     </div>
     <br>
     <div>
         <input type="submit" value="Create Account">
     </div>
     <p>* Indicates a required field</p>
+    <h2>Selector basado en relacion ancestro-descendiente</h2>
+        <div>
+            <h3>Primer h3 dentro del div</h3>
+            <h3>Segundo h3 dentro del div</h3>
+            <h3>Tercer h3 dentro del div</h3>
+        </div>
+            <h3>Primer h3 fuera del div</h3>
+            <h3 style="text-decoration: line-through;">Segundo h3 fuera del div</h3>
+            <a class="enlace" href="https://aulasvirtuales.epn.edu.ec/">Enlace a Aulas Virtuales</a>
+
 </body>
 </html>

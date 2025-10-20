@@ -1,0 +1,21 @@
+* {
+    margin: 15px;
+}
+
+#btnBuscar {
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 0px;
+    color: darkcyan;
+    border: 3px solid darkcyan;
+    font-size: 12pt;
+}
+
+#btnBuscar:hover {
+    border: 3px solid cyan;
+}
+
+#btnBuscar:active {
+    border: 3px solid grey;
+}
