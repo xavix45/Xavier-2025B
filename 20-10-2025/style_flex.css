@@ -1,0 +1,60 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    flex-direction: column;
+}
+#superior
+{
+    background-color: green;
+    flex: 1;
+}
+#inferior
+{
+    background-color: blueviolet;
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+#izquierda
+{
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+#derecha
+{
+    background-color: red;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.azul{
+    background-color: blue;
+    flex: 1;
+    margin: 2%;
+}
+#derecha_superior
+{
+    background-color: orange;
+    flex: 1;
+    display: flex;
+}
+#derecha_inferior
+{
+    background-color: purple;
+    flex: 1;
+    
+}
+.amarillo
+{
+    background-color: yellow;
+    flex: 1;
+    margin: 2%;
+}
